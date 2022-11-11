@@ -1,0 +1,354 @@
+/* Header */
+.header {
+    width: 100%;
+}
+
+.header-wrapper {
+    padding: 1em 20em;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    z-index: 100;
+    position: absolute;
+}
+
+/* Xử lí header */
+.sticky {
+    background-color: rgb(114, 60, 175);
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 900;
+    width: 100%;
+    height: 80px;
+}
+
+.sticky .site-logo {
+    margin-top: 5px;
+}
+
+.sticky .search {
+    margin-top: -10px;
+}
+
+.hidden {
+    display: none;
+    transition: all 2s ease-in-out;
+}
+
+/* Search */
+.top-header {
+    transition: all 0.5s ease-in-out;
+}
+
+.top-header .search {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.top-header .search button>.fa-solid {
+    font-size: 20px;
+    color: #fff;
+}
+
+.top-header .search .fa-solid {
+    margin-left: 0.7em;
+    font-size: 20px;
+    color: #fff;
+}
+
+.top-header .search button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 10px 10px 0;
+}
+
+.search-box .search-text {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 0;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+    caret-color: #fff;
+    color: #fff;
+}
+
+.search-button {
+    transition: all 0.25s ease-in-out;
+}
+
+.search-box:hover .search-text,
+.search-box .search-text:valid {
+    background: rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 10px 0px 10px 15px;
+    border-radius: 30px 0 0 30px;
+}
+
+.search-button:hover {
+    color: #000;
+}
+
+.search-box:hover,
+.search-box:valid {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+
+.search-box .search-button {
+    background-color: none;
+    border: none;
+    padding: 15px 18px 15px 0;
+    border-radius: 50%;
+}
+
+/* Logo */
+.top-header .site-logo {
+    text-align: center;
+}
+
+img.logo {
+    height: 4em;
+
+}
+
+/* Navbar */
+.nav-global {
+    text-align: center;
+    padding: 1em 0;
+    transition: all 2s ease-in-out;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav li {
+    position: relative;
+}
+
+.nav>li {
+    display: inline-block;
+}
+
+.nav > li .nav-child:hover{
+    -webkit-text-decoration: #ffffff solid underline;
+    text-decoration: underline solid #ffffff 4px;
+    text-underline-position: under;
+}
+
+.nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 46.5px;
+    text-decoration: none;
+    padding: 0 48px;
+    display: block;
+    font: 15px;
+}
+
+/* Subnav */
+.subnav {
+    display: none;
+    padding: 30px 50px;
+    margin-left: 50px;
+    width: 70rem;
+    position: absolute;
+    background-color: rgba(157, 151, 151, 0.9);
+    border-radius: 10px;
+    list-style-type: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+}
+
+.subnav>li {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding-top: 1em;
+}
+
+.subnav>li>a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.nav .subnav>li>a {
+    display: block;
+}
+
+.subnav>li>i {
+    color: #fff;
+}
+
+.nav li:hover .subnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.verticalLine {
+    border-left: 2px solid #fff;
+}
+
+.subnav .subnav-child {
+    text-align: left;
+}
+
+.subnav .subnav-child .subnav-t {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+.subnav .subnav-child .subnav-t>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.subnav .subnav-child .subnav-b>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Slide */
+.slide-wrapper {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    padding-top: 50%;
+    background: url('https://images.vietnamtourism.gov.vn/vn/images/2021/thang_8/hue.jpg') top center / cover no-repeat;
+}
+
+.slide-wrapper .text-content {
+    position: absolute;
+    width: 100%;
+    bottom: 25%;
+    padding-left: 10%;
+    color: #fff;
+}
+
+.slide-wrapper .text-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+    padding-left: 0.8rem;
+    border-left: solid 2px #6a00d5;
+}
+
+.slide-wrapper .text-content>h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 1.6rem 0;
+}
+
+.slide-wrapper .text-content .box-content {
+    letter-spacing: 0.024em;
+    line-height: 32px;
+    color: #fff;
+    font: 23px 'Roboto', sans-serif;
+    font-weight: 400;
+    cursor: grab;
+}
+
+/* ReadMore-Button */
+.more {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2em;
+}
+
+.more {
+    width: 12rem;
+    height: auto;
+}
+
+.more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: rgb(59, 43, 180);
+    border-radius: 1.625rem;
+}
+
+.more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+.more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+.more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+.more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.more:hover .circle {
+    width: 100%;
+}
+
+.more:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+.more:hover .button-text {
+    color: #fff;
+}

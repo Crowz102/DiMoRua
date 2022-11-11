@@ -1,0 +1,92 @@
+<div class="header">
+    <nav class="header-wrapper">
+        <div class="top-header">
+            <div class="site-logo">
+                <a href="#">
+                    <img src="/img/logo.png" class="logo" alt="Logo">
+                </a>
+            </div>
+
+            <div class="search">
+                <form action="" class="search-box">
+                    <input type="text" class="search-text" placeholder="Search..." required>
+                    <button class="search-button"><i class="fa-search fa-solid"></i></button>
+                </form>
+                <i class="fa-solid fa-earth-americas"></i>
+            </div>
+
+        </div>
+        <div class="nav-global font">
+            <ul class="nav">
+                <li class="nav-child">
+                    <a href="#">
+                        Khám phá
+                    </a>
+                    <ul class="subnav font">
+                        <div class="subnav-child">
+                            <div class="subnav-t font">
+                                <a href="">Những điều nên trải nghiệm</a>
+                            </div>
+                            <div class="subnav-b font">
+                                <a href="#">Đến Huế ăn gì? Ở đâu?</a>
+                            </div>
+                        </div>
+                        <div class="verticalLine">
+
+                        </div>
+                        <li><i class="fa-solid fa-plane"></i><a href="#">Du lịch</a></li>
+                        <li><i class="fa-solid fa-utensils"></i><a href="#">Ẩm thực</a></li>
+                        <li><i class="fa-solid fa-dice"></i><a href="#">Giải trí</a></li>
+                        <li><i class="fa-solid fa-leaf"></i><a href="#">Thiên nhiên</a></li>
+                    </ul>
+                </li>
+                <li class="nav-child"><a href="#">Kế hoạch chuyến đi</a></li>
+                <li class="nav-child"><a href="#">Lễ hội & Sự kiện</a></li>
+                <li class="nav-child"><a href="#">Ưu đãi</a></li>
+                <li class="nav-child"><a href="#">Tin tức</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="slide-wrapper">
+        <div class="text-content">
+            <h4>Thông tin cần biết</h4>
+            <h1>Chào mừng đến với <br>Thành phố Huế!</h1>
+            <p class="box-content">"Tĩnh lặng, mộng mơ, đậm chất thi ca là những mỹ từ<br> để giới thiếu về Huế. Hiện
+                nay, thành phố này là một<br> trong ba vùng du lịch lớn của cả nước..."</p>
+            <div class="readmore-btn">
+                <button class="more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Xem Thêm</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Xử lí header khi cuộn trang -->
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $('.top-header').addClass('sticky');
+            }
+            else {
+                $('.top-header').removeClass('sticky');
+            }
+        })
+    })
+
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $('.nav-global').addClass('hidden');
+            }
+            else {
+                $('.nav-global').removeClass('hidden');
+            }
+        })
+    })
+
+</script>

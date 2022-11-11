@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "mongoose": "^6.6.5",
+    "mongoose-slug-generator": "^1.0.4",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.9"
+  },
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "sass --watch src/resources/scss/app.scss src/public/css/app.css",
+    "watch1": "sass --watch src/resources/scss/header.scss src/public/css/header.css",
+    "watch2": "sass --watch src/resources/scss/footer.scss src/public/css/footer.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "dimorua",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "port": "8080",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crowz102/DiMoRua.git"
+  },
+  "keywords": [
+    "dimorua",
+    "nodejs",
+    "node"
+  ],
+  "author": "Thien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crowz102/DiMoRua/issues"
+  },
+  "homepage": "https://github.com/Crowz102/DiMoRua#readme"
+}

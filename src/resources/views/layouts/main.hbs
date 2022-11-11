@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/world-top-cities-2-2/180/63-512.png"
+        type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script language="JavaScript" src="../../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Discover Hue City</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- HEADER-PART -->
+        {{>header}}
+
+        <div class="wr-content">
+            <!-- DESCRIPTION -->
+            <div class="descript">
+                <div class="box-des">
+                    <div class="box-impressive__info">
+                        <p class="box-impressive__title">ẤN TƯỢNG</p>
+                        <p class="box-impressive__sub">LỄ HỘI FESTIVAL HUẾ 2022</p>
+                        <div class="box-statistic-wrp">
+                            <div class="box-statistic">
+                                <p id="counters_1" class="box-statistic__num box-statistic__num--medium"><strong><span
+                                            class="counter c_0">180.000</span></strong></p>
+                                <p class="box-statistic__txt">Lượt du khách</p>
+                            </div>
+
+                            <div class="box-statistic">
+                                <p id="counters_2" class="box-statistic__num box-statistic__num--small"><strong><span
+                                            class="counter c_1">72.000</span></strong></p>
+                                <p class="box-statistic__txt">Du khách lưu trú</p>
+                            </div>
+
+                            <div class="box-statistic">
+                                <p class="box-statistic__num box-statistic__num--large"><strong>155<span
+                                            class="box-statistic__sub"> tỉ đồng</span></strong></p>
+                                <p class="box-statistic__txt">Doanh thu từ dịch vụ du lịch</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-impressive__info">
+                        <p style="text-align:justify; font-size: 20px; font-family: 'Montserrat', sans-serif;">
+                            Tuần lễ Festival Huế 2022 với chuỗi 8 chương trình chính, 34 buổi biểu diễn nghệ thuật tiêu
+                            biểu
+                            đầy màu sắc và hơn 30 hoạt động hưởng ứng, đồng hành, trưng bày, triển lãm đã diễn ra liên
+                            tục
+                            trong 6 ngày đêm tại 11 sân khấu và điểm diễn trên địa bàn tỉnh Thừa Thiên Huế.<br>Nhiều
+                            chương
+                            trình, lễ hội chính đã thu hút hàng chục ngàn khán giả như Chương trình Nghệ thuật Khai màn
+                            (khoảng 10.000 khán giả); Lễ hội đường phố “Sắc màu văn hoá” (khoảng 12.000 khán giả), Lễ
+                            hội
+                            Bia (khoảng 9.000 khán giả); Chương trình Âm nhạc Trịnh Công Sơn (khoảng 6.000 lượt
+                            người)...
+                        </p>
+                        <div>
+                            <img src="https://bcp.cdnchinhphu.vn/334894974524682240/2022/6/25/1dji0485-16561663338821789795004.jpg"
+                                alt="" class="full-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTENT -->
+            <section class="content">
+                <div class="visible-heading" id="heading" style="padding-bottom: 0.5rem;"></div>
+                <h2 class="heading_content">Những điều nên trải nghiệm</h2>
+                <div class="box-tab">
+                    <div class="box-tab__head">
+                        <div class="btn-navi is-yellow js-tab-trigger is-active" id="show-all">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="29.233" height="29.233"
+                                            viewBox="0 0 29.233 29.233">
+                                            <g transform="translate(-2.91 -282.977)">
+                                                <path class="fill" data-name="Path 13268"
+                                                    d="M3.609,282.977a.7.7,0,0,0-.7.7v11.832a.7.7,0,0,0,.7.694H15.44a.7.7,0,0,0,.694-.694V283.676a.7.7,0,0,0-.694-.7Zm.694,1.392H14.742v10.439H4.3Z"
+                                                    transform="translate(0 0)"></path>
+                                                <path class="fill" data-name="Path 13269"
+                                                    d="M9.69,282.977a.7.7,0,0,0-.694.7v11.832a.7.7,0,0,0,.694.694H21.521a.7.7,0,0,0,.7-.694V283.676a.7.7,0,0,0-.7-.7Zm.7,1.392H20.828v10.439H10.388Z"
+                                                    transform="translate(9.923 0)"></path>
+                                                <path class="fill" data-name="Path 13270"
+                                                    d="M3.609,289.063a.7.7,0,0,0-.7.693v11.832a.7.7,0,0,0,.7.7H15.44a.7.7,0,0,0,.694-.7V289.757a.7.7,0,0,0-.694-.694Zm.694,1.392H14.742v10.439H4.3Z"
+                                                    transform="translate(0 9.923)"></path>
+                                                <path class="fill" data-name="Path 13271"
+                                                    d="M9.69,289.063a.7.7,0,0,0-.694.693v11.832a.7.7,0,0,0,.694.7H21.521a.7.7,0,0,0,.7-.7V289.757a.7.7,0,0,0-.7-.694Zm.7,1.392H20.828v10.439H10.388Z"
+                                                    transform="translate(9.923 9.923)"></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="btn-navi__title">Tất cả</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="btn-navi is-red js-tab-trigger" data-filter=".sort-red ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill"
+                                            src="https://www.visithcmc.vn/uploads/0000/1/2021/07/26/tab1.svg">
+                                    </span>
+                                    <p class="btn-navi__title van-hoa-lich-su">Văn hóa<br> &amp; Lịch sử</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="btn-navi is-ogrange js-tab-trigger" data-filter=".sort-ogrange ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill"
+                                            src="https://www.visithcmc.vn/uploads/0000/1/2021/07/26/tab2.svg">
+                                    </span>
+                                    <p class="btn-navi__title am-thuc">Ẩm thực </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="btn-navi is-green js-tab-trigger" data-filter=".sort-green ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill"
+                                            src="https://www.visithcmc.vn/uploads/0000/1/2021/07/26/tab3.svg">
+                                    </span>
+                                    <p class="btn-navi__title mua-sam">Mua sắm </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="btn-navi is-purple js-tab-trigger" data-filter=".sort-purple ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill"
+                                            src="https://www.visithcmc.vn/uploads/0000/1/2021/07/26/tab4.svg">
+                                    </span>
+                                    <p class="btn-navi__title giai-tri">Giải trí </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="btn-navi is-lightgreen js-tab-trigger" data-filter=".sort-lightgreen ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill"
+                                            src="https://www.visithcmc.vn/uploads/0000/1/2021/07/26/tab5.svg">
+                                    </span>
+                                    <p class="btn-navi__title thien-nhien">Thiên nhiên </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="box-contain col-lg-4 col-sm-6">
+                        {{#each details}}
+                        <div class='card-content card-item' style="background-image: url({{this.image}}); background-repeat: no-repeat; background-position: center center;">
+                            <div class='info-content'>
+                                <h1 class='title-content'>{{this.title}}</h1>
+                                <p class='description-content'>{{this.description}}</p>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+
+                    <div class="btn-wrp"><a href="news/category/kham-pha" class="btn-readmore">Xem tất cả</a></div>
+            </section>
+
+            <section class="content">
+                <div class="visible-heading" id="heading" style="padding-bottom: 0.5rem;"></div>
+                <h2 class="heading_content">Thông tin du lịch cần biết</h2>
+                <div class="box-tab">
+                    <div class="box-tab__head">
+                        <div class="btn-navi is-yellow js-tab-trigger is-active" id="show-all">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-visa.svg"
+                                            alt="" class="fluid-image">
+                                    </span>
+                                    <p class="btn-navi__title">Thị thực</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="btn-navi is-red js-tab-trigger" data-filter=".sort-red ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill"
+                                            src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-plane.svg">
+                                    </span>
+                                    <p class="btn-navi__title van-hoa-lich-su">Di chuyển</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="btn-navi is-ogrange js-tab-trigger" data-filter=".sort-ogrange ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill"
+                                            src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-security.svg">
+                                    </span>
+                                    <p class="btn-navi__title am-thuc">An toàn</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="btn-navi is-green js-tab-trigger" data-filter=".sort-green ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill"
+                                            src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-infomation.svg">
+                                    </span>
+                                    <p class="btn-navi__title mua-sam">Trạm thông tin</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="btn-navi is-purple js-tab-trigger" data-filter=".sort-purple ">
+                            <a href="javascript:void(0)">
+                                <div class="btn-navi__inner">
+                                    <span class="btn-navi__icon">
+                                        <img class="fill" src="/img/noun-other-3546743.png"
+                                            style="width: 50%; margin-bottom: -2rem">
+                                    </span>
+                                    <p class="btn-navi__title giai-tri">Thông tin khác</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            </section>
+
+            {{!-- Share --}}
+            <div class="box-share">
+                <div class="box-share__lead">
+                    <p class="box-share__title">Góc<br>Chia sẻ</p>
+                    <p class="box-share__text">Hãy cùng chia sẻ những khoảnh khắc<br>#DiscoverHueCity của bạn!</p>
+                </div>
+                <ul class="lst-share">
+                    <li style="display: list-item;">
+                        <div class="cm-instagram">
+                            <a href="#popup-0" class="cm-instagram__inner js-popup">
+                                <figure class="cm-instagram__img js-fullbg"
+                                    style="background-size: cover; background-image: url(https://i.pinimg.com/564x/f6/5e/6b/f65e6bc6abb48d297db004eec6d9f623.jpg); background-repeat: no-repeat; background-position: center center; height: 18rem;">
+                                    <img src="http://www.visithcmc.vn/uploads/0000/6/2021/08/22/151074577-240649711023320-5921726003968731798-n.jpg"
+                                        class="full-image" style="display: none;">
+
+                                </figure>
+                                <div class="cm-instagram__txt">
+                                    <p class="cm-instagram__txt__name">thien.le</p>
+                                    <p class="cm-instagram__txt__time"><span class="icon-instagram"><img
+                                                src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-instagram.svg"
+                                                alt="" class="fluid-image"></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+    
+                    <li style="display: list-item;">
+                        <div class="cm-instagram">
+                            <a href="#popup-1" class="cm-instagram__inner js-popup">
+                                <figure class="cm-instagram__img js-fullbg"
+                                    style="background-size: cover; background-image: url(https://i.pinimg.com/originals/bf/52/74/bf52745f99140b47330292da72a955f0.jpg); background-repeat: no-repeat; background-position: center center; height: 18rem;">
+                                    <img src="http://www.visithcmc.vn/uploads/0000/6/2021/08/22/landmark81-sunsett-insta-dongqtrung.jpg"
+                                        class="full-image" style="display: none;">
+
+                                </figure>
+                                <div class="cm-instagram__txt">
+                                    <p class="cm-instagram__txt__name">thien.le</p>
+                                    <p class="cm-instagram__txt__time"><span class="icon-instagram"><img
+                                                src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-instagram.svg"
+                                                alt="" class="fluid-image"></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                   
+                    <li style="display: list-item;">
+                        <div class="cm-instagram">
+                            <a href="#popup-2" class="cm-instagram__inner js-popup">
+                                <figure class="cm-instagram__img js-fullbg"
+                                    style="background-size: cover; background-image: url(https://i.pinimg.com/564x/45/03/2e/45032e4dede478dd302753bf1f305638.jpg); background-repeat: no-repeat; background-position: center center; height: 45rem;">
+                                    <img src="http://www.visithcmc.vn/uploads/0000/6/2021/08/22/landmark81-by-night-insta-dongqtrung.jpg"
+                                        class="full-image" style="display: none;">
+
+                                </figure>
+                                <div class="cm-instagram__txt">
+                                    <p class="cm-instagram__txt__name">thien.le</p>
+                                    <p class="cm-instagram__txt__time"><span class="icon-instagram"><img
+                                                src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-instagram.svg"
+                                                alt="" class="fluid-image"></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                   
+                    <li style="display: list-item;">
+                        <div class="cm-instagram">
+                            <a href="#popup-3" class="cm-instagram__inner js-popup">
+                                <figure class="cm-instagram__img js-fullbg"
+                                    style="background-size: cover; background-image: url(&quot;http://www.visithcmc.vn/uploads/0000/6/2021/08/22/ca-phe-insta-congcaphe.jpg&quot;); background-repeat: no-repeat; background-position: center center; height: 18rem;">
+                                    <img src="http://www.visithcmc.vn/uploads/0000/6/2021/08/22/ca-phe-insta-congcaphe.jpg"
+                                        class="full-image" style="display: none;">
+
+                                </figure>
+                                <div class="cm-instagram__txt">
+                                    <p class="cm-instagram__txt__name">congcaphe</p>
+                                    <p class="cm-instagram__txt__time"><span class="icon-instagram"><img
+                                                src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-instagram.svg"
+                                                alt="" class="fluid-image"></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                   
+                    <li style="display: list-item;">
+                        <div class="cm-instagram">
+                            <a href="#popup-4" class="cm-instagram__inner js-popup">
+                                <figure class="cm-instagram__img js-fullbg"
+                                    style="background-size: cover; background-image: url(https://statics.vinpearl.com/bun-bo-hue-9_1628649149.jpeg); background-repeat: no-repeat; background-position: center center; height: 18rem;">
+                                    <img src="http://www.visithcmc.vn/uploads/0000/6/2021/08/22/phinxanhcaphe-insta.jpg"
+                                        class="full-image" style="display: none;">
+
+                                </figure>
+                                <div class="cm-instagram__txt">
+                                    <p class="cm-instagram__txt__name">pun.pun</p>
+                                    <p class="cm-instagram__txt__time"><span class="icon-instagram"><img
+                                                src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-instagram.svg"
+                                                alt="" class="fluid-image"></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    
+                    <li style="display: list-item;">
+                        <div class="cm-instagram">
+                            <a href="#popup-5" class="cm-instagram__inner js-popup">
+                                <figure class="cm-instagram__img js-fullbg"
+                                    style="background-size: cover; background-image: url(https://danangmotorbikeadventure.com/wp-content/uploads/2022/08/When-is-the-right-time-to-visit-Hue-Quoc-Hoc-School.jpeg); background-repeat: no-repeat; background-position: center center; height: 18rem;">
+                                    <img src="http://www.visithcmc.vn/uploads/0000/6/2021/08/22/42nguyenhue-insta-soaipham.jpg"
+                                        class="full-image" style="display: none;">
+
+                                </figure>
+                                <div class="cm-instagram__txt">
+                                    <p class="cm-instagram__txt__name">pun.pun</p>
+                                    <p class="cm-instagram__txt__time"><span class="icon-instagram"><img
+                                                src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-instagram.svg"
+                                                alt="" class="fluid-image"></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                   
+                    <li style="display: list-item;">
+                        <div class="cm-instagram">
+                            <a href="#popup-6" class="cm-instagram__inner js-popup">
+                                <figure class="cm-instagram__img js-fullbg"
+                                    style="background-size: cover; background-image: url(https://i.pinimg.com/originals/97/36/1b/97361b8f775ba40b5429573cb72dfab5.jpg); background-repeat: no-repeat; background-position: center center; height: 18rem;">
+                                    <img src="http://www.visithcmc.vn/uploads/0000/6/2021/08/22/26lytutrong-insta-soaipham.jpg"
+                                        class="full-image" style="display: none;">
+
+                                </figure>
+                                <div class="cm-instagram__txt">
+                                    <p class="cm-instagram__txt__name">pun.pun</p>
+                                    <p class="cm-instagram__txt__time"><span class="icon-instagram"><img
+                                                src="http://www.visithcmc.vn/dist/frontend/page/assets/images/common/icon-instagram.svg"
+                                                alt="" class="fluid-image"></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-wrp"><a href="javascript:void(0)" class="btn" id="loadmore" style="display: none;">Xem thêm</a>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact">
+
+    </div>
+    </div>
+
+    {{>footer}}
+    </div>
+</body>
+
+</html>

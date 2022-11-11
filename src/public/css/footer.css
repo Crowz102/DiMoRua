@@ -1,0 +1,385 @@
+#l-footer {
+  width: 100%;
+}
+
+.l-footer {
+  border-top: solid 1px #d3d3d3;
+  margin-top: 3.5rem;
+  padding-top: 5.5rem;
+}
+
+.wrp-container {
+  margin: 0 auto;
+  max-width: 1580px;
+  padding: 0 3rem;
+  box-sizing: border-box;
+}
+
+.box-footerinfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box-footerinfo__logo {
+  width: 20%;
+}
+
+.box-footerinfo__logo__img {
+  padding-top: 0.8rem;
+}
+
+.box-footerinfo__logo__img a {
+  display: block;
+}
+
+.box-footerinfo__logo__copyright {
+  font-size: 1.6rem;
+  color: #2a2a2a;
+  opacity: 0.5;
+  line-height: 1.5;
+  padding-top: 2.8rem;
+}
+
+.l-footer a {
+  color: #336699;
+  text-decoration: none;
+  background-color: transparent;
+  outline: 0 !important;
+  border: none;
+  outline: none;
+}
+
+.l-footer p {
+  line-height: 1.5;
+}
+
+a,
+button,
+input {
+  outline: 0 !important;
+}
+
+a img {
+  border: none;
+  outline: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+.full-image {
+  width: 100%;
+  height: auto;
+}
+
+.box-footerinfo__logo.box-footerinfo__logo1 {
+  width: 12%;
+}
+
+.box-footerinfo__logo__img {
+  padding-top: 0.8rem;
+}
+
+.box-footerinfo__logo__img a {
+  display: block;
+}
+
+.box-footerinfo__logo.box-footerinfo__logo1 img {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 2px;
+  padding-top: 7px;
+}
+
+.full-image {
+  width: 100%;
+  height: auto;
+}
+
+.box-footerinfo__logo__copyright {
+  font-size: 1.6rem;
+  color: #2a2a2a;
+  opacity: 0.5;
+  line-height: 1.5;
+  padding-top: 2.8rem;
+}
+
+.box-footerinfo__register {
+  width: 48%;
+}
+
+.box-footerinfo__register__ttl {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box-footerinfo__register__txt {
+  font-size: 1.6rem;
+  line-height: 1.875;
+  text-align: center;
+  padding-top: 0.52vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+.is-visibleSp {
+  display: none !important;
+}
+
+.frm-register {
+  max-width: 39.5rem;
+  margin: 2.5rem auto 0;
+  border: solid 1px #acacac;
+  border-radius: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.5rem;
+}
+
+.frm-register__input {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0 2.4rem 0 1.4rem;
+  margin-left: 1rem;
+  border: none;
+  opacity: 0.5;
+}
+
+.frm-register__input input {
+  font-size: 0.83vw;
+  box-sizing: border-box;
+  border: 0.1rem solid #dad7d3;
+  height: auto;
+  padding: 0.2rem 0.5rem;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+.frm-register__btn button:not(:disabled) {
+  cursor: pointer;
+}
+
+.frm-register__btn {
+  position: relative;
+  border: solid 3px rgb(114, 60, 175);
+  border-radius: 3.8rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  overflow: hidden;
+  min-width: 9rem;
+  line-height: 3rem;
+  background: linear-gradient(180deg, rgb(114, 60, 175) 0%, rgb(114, 60, 175) 50%);
+  box-shadow: 4px 3px 8px 0px rgba(42, 42, 42, 0.32);
+  z-index: 1;
+  transition: all 0.5s ease-in;
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+.frm-register__btn button {
+  -webkit-appearance: button;
+}
+
+.frm-register__btn button {
+  text-transform: none;
+}
+
+.frm-register__btn:before {
+  content: "";
+  min-width: 18.6rem;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2.1rem;
+  background: linear-gradient(0deg, rgb(114, 60, 175) 0%, rgb(114, 60, 175) 50%);
+  z-index: -1;
+  transition: all 0.5s ease-in;
+}
+
+.bravo-form .fa-spinner {
+  display: none;
+}
+
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+
+.fa-pulse {
+  animation: fa-spin 1s steps(8) infinite;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+#form-mess {
+  max-width: 50rem;
+  margin: 0.2rem auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-mess {
+  width: 100%;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/* Social */
+.box-footerinfo__social {
+  width: 20%;
+}
+
+.lst-social {
+  display: flex;
+  margin-top: 1.4rem;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.lst-social li {
+  margin-right: 1.6rem;
+}
+
+.lst-social li a {
+  display: block;
+  transition: all 0.3s;
+}
+
+.lst-social li:last-child {
+  margin-right: 0;
+}
+
+.lst-download-app {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.lst-download-app li {
+  margin-right: 1rem;
+}
+
+.lst-download-app li:last-child {
+  margin-right: 0;
+}
+
+/* Submenu */
+.footer-submenu {
+  display: -webkit-inline-box;
+  justify-content: center;
+  margin-top: 4.3rem;
+  padding-top: 2.4rem;
+  border-top: solid 1px #d3d3d3;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-submenu > ul,
+ol {
+  list-style-type: none;
+}
+
+.is-visibleSp {
+  display: none !important;
+}
+
+.footer-submenu li {
+  padding: 0 3rem;
+  margin: 0 2rem;
+}
+
+.footer-submenu li a {
+  font-size: 1.5rem;
+  color: #2a2a2a;
+}
+
+.wrp-container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
+.l-footer__wrapper {
+  margin-top: 3.2rem;
+  padding: 1.5rem 0;
+  background: #f1f1f1;
+}
+
+.wrp-container {
+  margin: 0 auto;
+  max-width: 1580px;
+  padding: 0 3rem;
+  box-sizing: border-box;
+}
+
+.nav-contentinfo {
+  text-align: center;
+}
+
+.nav-contentinfo ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-contentinfo ul li {
+  width: 14.2857142857%;
+  text-align: center;
+  border-right: solid 1px #707070;
+}
+
+.nav-contentinfo ul li:last-child {
+  border-right: none;
+}
+
+.power {
+  padding: 0.4rem;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=footer.css.map */
